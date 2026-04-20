@@ -12,48 +12,60 @@
       color: #e2e8f0;
     }
 
-    header {
-      padding: 60px 20px;
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background: #020617;
+    }
+
+    nav a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+    /* HERO */
+    .hero {
       text-align: center;
+      padding: 80px 20px;
       background: linear-gradient(135deg, #3b82f6, #9333ea);
       color: white;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 40px;
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
     }
 
-    header p {
-      opacity: 0.8;
+    .hero p {
+      opacity: 0.9;
+      font-size: 18px;
     }
 
     main {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 40px auto;
       padding: 20px;
     }
 
+    /* CARD */
     .card {
       background: #1e293b;
       padding: 20px;
       border-radius: 16px;
       margin-bottom: 20px;
       transition: 0.3s;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     }
 
     .card:hover {
-      transform: translateY(-5px);
+      transform: translateY(-6px);
     }
 
     a {
       color: #38bdf8;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
     }
 
     footer {
@@ -65,18 +77,25 @@
 
     img {
       width: 100%;
-      border-radius: 10px;
-      margin-bottom: 15px;
+      border-radius: 12px;
+      margin-bottom: 10px;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>My Blog 🚀</h1>
-  <p>Building my journey in public</p>
-</header>
+<nav>
+  <div><strong>MyBlog</strong></div>
+  <div>
+    <a href="/">Home</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>🚀 Welcome to My Blog</h1>
+  <p>Building and learning in public</p>
+</div>
 
 <main>
   {{ content }}
