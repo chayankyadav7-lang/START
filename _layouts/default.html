@@ -6,43 +6,45 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #f4f4f4;
+      background: #eef2f7;
     }
 
     header {
-      background: #111;
+      background: linear-gradient(135deg, #667eea, #764ba2);
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
-    }
-
-    nav {
-      background: #333;
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
     }
 
     main {
-      max-width: 800px;
+      max-width: 900px;
       margin: 30px auto;
+      padding: 10px;
+    }
+
+    .card {
       background: white;
       padding: 20px;
-      border-radius: 10px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    a:hover {
+      color: #667eea;
     }
 
     footer {
       text-align: center;
-      padding: 15px;
-      background: #111;
+      padding: 20px;
+      background: #222;
       color: white;
-      margin-top: 20px;
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -51,12 +53,8 @@
 
 <header>
   <h1>My Blog 🚀</h1>
-  <p>Learning and sharing</p>
+  <p>Sharing my journey</p>
 </header>
-
-<nav>
-  <a href="/">Home</a>
-</nav>
 
 <main>
   {{ content }}
