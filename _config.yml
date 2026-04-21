@@ -1,3 +1,7 @@
 theme: minima
-baseurl: "/MY-FIRST-VLOG"
-url: "https://chayankyadav7-lang.github.io"
+
+baseurl: "/BUILDLEARNGROW"
+url: "https://nexorahub-o.github.io"
+
+plugins:
+  - jekyll-sitemap
