@@ -1,7 +1,7 @@
 theme: minima
 
-baseurl: "/BUILDLEARNGROW"
-url: "https://nexorahub-o.github.io"
+baseurl: "/BUILD-LEARN-GROW"
+url: "https://NEXORAHUB-O.github.io"
 
 plugins:
   - jekyll-sitemap
