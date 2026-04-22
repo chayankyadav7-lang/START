@@ -8,15 +8,15 @@ title: Home
 {% for post in site.posts %}
   <div class="card">
 
-    {% if post.image %}
-      <img src="{{ post.image | default: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800' }}" alt="blog image">
-    {% endif %}
+    <img src="{{ post.image | default: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800' }}" alt="blog image">
 
     <h2>
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h2>
+
+    <p><strong>Category:</strong> {{ post.categories | join: ", " }}</p>
 
     <p>{{ post.excerpt }}</p>
 
