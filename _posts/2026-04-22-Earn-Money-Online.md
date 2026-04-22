@@ -3,6 +3,7 @@ layout: post
 title: "Top 5 Free Ways to Earn Money Online in 2026 (Complete Beginner Guide)"
 date: 2026-04-22
 image: https://source.unsplash.com/800x400/?money,online
+categories: [blogging, beginners]
 ---
 
 ## 💰 Introduction
