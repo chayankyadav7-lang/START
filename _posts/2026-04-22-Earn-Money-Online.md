@@ -6,7 +6,7 @@ date: 2026-04-22
 
 ## 💰 Introduction
 In today’s digital world, earning money online is no longer just a dream — it’s a real opportunity available to anyone with internet access. Whether you are a student, a beginner, or someone looking for a side income, there are multiple ways to start without investing any money.
-
+![Online Earning](https://source.unsplash.com/800x400/?money,online)
 The best part? You don’t need to be an expert. With consistency, patience, and the right approach, you can build a stable income over time.
 
 In this guide, we will explore the **top 5 free ways to earn money online in 2026**, along with practical tips to help you get started.
