@@ -3,6 +3,7 @@ layout: post
 title: "Top 10 Websites to Earn Money Without Investment in 2026 (Complete Guide)"
 date: 2026-04-22
 image: https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800
+categories: [earning, online-money]
 ---
 
 ## 💰 Introduction
